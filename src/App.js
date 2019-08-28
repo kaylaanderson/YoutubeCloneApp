@@ -5,6 +5,8 @@ import { SearchBar, VideoList, VideoDetail } from './components';
 
 class App extends React.Component {
   render() {
+    const { searchTerm } = this.state;
+    
     return (
       <Grid style={{ justifyContent: 'center' }} container spacing={10}>
         <Grid item xs={11}>
