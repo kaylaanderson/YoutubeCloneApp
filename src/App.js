@@ -10,7 +10,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.handleSubmit('pdf generation with react and node')
+    this.handleSubmit('hyperdrive')
   }
 
   onVideoSelect = (video) => {
