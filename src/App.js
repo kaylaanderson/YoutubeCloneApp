@@ -22,7 +22,7 @@ class App extends React.Component {
       params: {
         part: 'snippet',
         maxResults: 5,
-        key: 'AIzaSyC7cNcSsowfu9yo3RQAvBv4Mu3HVBFM6xw',
+        key: process.env.REACT_APP_YOUTUBE_API_KEY,
         q: searchTerm,
       }
     });
